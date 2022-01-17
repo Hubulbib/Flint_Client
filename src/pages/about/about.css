@@ -1,0 +1,145 @@
+.about__main__div {
+    padding: 200px 150px;
+    color: #042039;
+}
+
+.about__first{
+    display: flex;
+    margin-bottom: 300px;
+}
+
+.about__first__div{
+    padding-right: 100px;
+}
+.first__h1{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 70px;
+}
+.second__h1{
+    font-size: 30px;
+    color: black;
+}
+
+.about__first__img img {
+    width: 550px;
+}
+
+.about__second{
+    margin-bottom: 120px;
+}
+.about__second h1{
+    font-weight: bold;
+    min-height: 130px;
+    font-size: 46px;
+}
+
+
+.about__third{
+    text-align: center;
+}
+.about__third__img{
+    margin-bottom: 100px;
+}
+.about__third__img img{
+    width: 750px;
+}
+.about__third__h1 h1{
+    max-width: 1000px;
+    font-size: 38px;
+    margin: 0 auto;
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .about__main__div{
+        padding: 120px 80px;
+    }
+    .about__first__div{
+        padding-right: 50px;
+    }
+    .second__h1{
+        font-size: 24px;
+    }
+    .about__first__img img {
+        width: 400px;
+    }
+    
+}
+
+@media (min-width: 1250px) and (max-width: 1440px) {
+    .second__h1{
+        font-size: 28px;
+    }
+    .about__first__img img{
+        width: 450px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about__main__div{
+        padding: 90px 60px 130px 60px;
+    }
+    .about__first{
+        flex-direction: column-reverse;
+    }
+    .about__first__div{
+        padding-right: 0;
+    }
+    .about__first__img {
+        margin-bottom: 70px;
+    }
+    .about__second{
+        margin-bottom: 90px;
+    }
+    .about__third__img{
+        margin-bottom: 70px;
+    }
+    .about__third__img img{
+        width: 550px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about__main__div{
+        padding: 40px 30px 90px 30px;
+    }
+    .first__h1 {
+        font-size: 26px;
+    }
+    .second__h1{
+        font-size: 16px;
+        text-align: center;
+    }
+    .about__first{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 140px;
+    }
+    .about__first__div{
+        padding-right: 0;
+    }
+    .about__first__img {
+        margin-bottom: 60px;
+    }
+    .about__first__img img{
+        width: 220px;
+    }
+    .about__second{
+        margin-bottom: 75px;
+    }
+    .about__second h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    .about__third__img{
+        margin-bottom: 60px;
+    }
+    .about__third__img img{
+        width: 220px;
+    }
+    .about__third__h1 h1{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,147 @@
+.kotel__container{
+    border: 5px solid #265782;
+    border-radius: 50px;
+    display: flex;
+    padding: 60px 35px;
+    color: #042039;
+    max-height: 670px;
+    max-width: 620px;
+    margin: 0 20px 100px 20px;
+}
+.kotel__img{
+    margin-right: 45px;
+}
+.kotel__img img{
+    width: 200px;
+}
+.kotel__rigth {
+    cursor: default;
+}
+
+.kotel__name{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.kotel__detail_i{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.kotel__btn{
+    text-decoration: none;
+    transition: all .3s;
+    background: #EAEFF3;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    text-align: center;
+    width: min-content;
+    margin: 0 auto;
+    padding: 8px 40px;
+    color: #265782;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.kotel__btn:hover{
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 1750px){
+    .kotel__btn{
+        padding: 12px 60px;
+    }
+    .kotel__container{
+        min-height: 710px;
+        min-width: 720px;
+    }
+    .kotel__img img{
+        width: 300px;
+    }
+}
+
+@media (min-width: 1086px) and (max-width: 1410px){
+    .kotel__rigth{
+        width: 100%;
+    }
+    .kotel__btn{
+        padding: 8px 30px;
+        font-size: 18px;
+    }
+    .kotel__container{
+        max-height: 500px;
+        max-width: 460px;
+    }
+    .kotel__img{
+        margin-right: 20px;
+    }
+    .kotel__img img{
+        width: 150px;
+    }
+    .kotel__name{
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .kotel__detail{
+        font-size: 27px;
+    }
+    .kotel__detail_i{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 570px) and (max-width: 1086px){
+    .kotel__btn{
+        padding: 5px 25px;
+        font-size: 16px;
+    }
+    .kotel__container{
+        max-height: 500px;
+        max-width: 460px;
+        margin: 0 10px 100px 10px;
+        margin-bottom: 70px;
+    }
+    .kotel__img img{
+        width: 180px;
+    }
+    .kotel__name{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .kotel__detail{
+        font-size: 21px;
+    }
+    .kotel__detail_i{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 570px){
+    .kotel__btn{
+        padding: 4px 22px;
+        font-size: 14px;
+    }
+    .kotel__container{
+        padding: 30px 15px;
+        height: 350px;
+        min-width: 310px;
+        max-width: 340px;
+        margin-bottom: 60px;
+    }
+    .kotel__img{
+        margin-right: 18px;
+    }
+    .kotel__img img{
+        width: 120px;
+    }
+    .kotel__name{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .kotel__detail{
+        font-size: 18px;
+    }
+    .kotel__detail_i{
+        font-size: 14px;
+    }
+}

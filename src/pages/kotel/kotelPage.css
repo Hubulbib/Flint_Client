@@ -1,0 +1,249 @@
+.page__kotel__div{
+    padding: 150px 100px 0 100px;
+    color: #042039;
+}
+.page__main{
+    cursor: default;
+    margin-bottom: 50px;
+}
+.page__main h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.page__desc{
+    cursor: default;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.page__kotel__a{
+    margin-bottom: 70px;
+}
+.page__kotel__a a{
+    cursor: pointer;
+    transition: all .3s;
+    color: black;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
+.page__kotel__a a:hover{
+    filter: opacity(0.7);
+}
+
+.photo__div{
+    margin-right: 50px;
+}
+
+.photo__div img {
+    width: 550px;
+}
+
+.desc__main__h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.desc__other__h1{
+    font-size: 32px;
+}
+
+.table__div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.other__kotels__h1{
+    cursor: default;
+    margin-bottom: 50px;
+}
+.other__kotels__h1 h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #000000;
+}
+
+.other__kotels{
+    margin-bottom: 200px;
+}
+.other__kotel__all{
+    display: flex;
+    justify-content: center;
+    margin: 0 -25px;
+}
+
+.other__kotel__div{
+    text-decoration: none;
+    transition: all .3s;
+    cursor: pointer;
+    background: rgba(0, 77, 148, 0.1);
+    box-shadow: 7px 9px 20px 10px rgba(0, 0, 0, 0.25), inset 0px 0px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    padding: 70px 80px;
+    margin: 0 25px;
+}
+.other__kotel__div:hover {
+    box-shadow: 10px 12px 25px 15px rgba(0, 0, 0, 0.25), inset 0px 0px 60px rgba(0, 0, 0, 0.05);
+}
+.other__kotel__div img {
+    object-fit: cover;
+    height: 350px;
+    padding-bottom: 25px;
+}
+.other__kotel__div h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+}
+
+
+
+@media (min-width: 1440px) and (max-width: 1800px){
+    .table__div img{
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px){
+    .photo__div img {
+        width: 400px;
+    }
+    .desc__main__h1{
+        font-size: 40px;
+    }
+    .desc__other__h1{
+        font-size: 22px;
+    }
+    .table__div img{
+        max-width: 1000px;
+    }
+    .other__kotel__div{
+        padding: 42px 60px;
+    }
+    .other__kotel__div img {
+        height: 300px;
+    }
+    .other__kotel__div h1 {
+        font-size: 32px;
+    }
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+    .page__kotel__div{
+        padding: 100px 50px 0 50px;
+    }
+    .photo__div img {
+        width: 400px;
+    }
+    .desc__main__h1{
+        font-size: 36px;
+    }
+    .desc__other__h1{
+        font-size: 18px;
+    }
+    .table__div img{
+        max-width: 900px;
+    }
+    .other__kotel__div{
+        padding: 36px 60px;
+    }
+    .other__kotel__div img {
+        height: 250px;
+    }
+    .other__kotel__div h1 {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .page__kotel__div{
+        padding: 50px 50px 0 50px;
+    }
+    .page__main h1, .other__kotels__h1 h1{
+        font-size: 48px;
+    }
+    .photo__div img {
+        width: 300px;
+    }
+    .desc__main__h1{
+        font-size: 32px;
+    }
+    .desc__other__h1{
+        font-size: 16px;
+    }
+    .table__div img{
+        max-width: 700px;
+    }
+    .other__kotel__div{
+        padding: 30px 50px;
+    }
+    .other__kotel__div img {
+        height: 150px;
+    }
+    .other__kotel__div h1 {
+        font-size: 20px;
+    }
+    .other__kotels{
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-width: 768px){
+    .page__kotel__div{
+        padding: 50px 50px 0 50px;
+    }
+    .page__desc{
+        width: 100%;
+        display: inline-block;
+    }
+    .page__main h1, .other__kotels__h1 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .photo__div {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .photo__div img {
+        max-width: 200px;
+    }
+    .desc__main__h1{
+        font-size: 36px;
+    }
+    .desc__other__h1{
+        font-size: 14px;
+    }
+    .table__div img{
+        max-width: 300px;
+    }
+    .other__kotel__all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -25px 0;
+    }
+    .other__kotel__div{
+        transition: none;
+        box-shadow: 7px 9px 20px 10px rgba(0, 0, 0, 0.25), inset 0px 0px 60px rgba(0, 0, 0, 0.05);
+        padding: 30px 50px;
+        margin: 25px 0;
+    }
+    .other__kotel__div:hover {
+        box-shadow: 7px 9px 20px 10px rgba(0, 0, 0, 0.25), inset 0px 0px 60px rgba(0, 0, 0, 0.05);
+    }
+    .other__kotel__div img {
+        height: 175px;
+    }
+    .other__kotel__div h1 {
+        font-size: 18px;
+    }
+    .other__kotels{
+        margin-bottom: 110px;
+    }
+}
