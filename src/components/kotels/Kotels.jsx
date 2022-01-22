@@ -23,6 +23,8 @@ const Kotels = ({name, N, S, V}) => {
                 return '/productions/030F'
             case 'КС-Г-040F':
                 return '/productions/040F'
+            default:
+                return '/productions/007F'
         }
     }
 

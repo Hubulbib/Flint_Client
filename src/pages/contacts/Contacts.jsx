@@ -22,7 +22,7 @@ const Contacts = () => {
 
     async function mail(e){
         e.preventDefault()
-        let response = await fetch('https://desolate-cliffs-07274.herokuapp.com/api/send_message', {
+        let response = await fetch('http://localhost:5000/api/send_message', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

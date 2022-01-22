@@ -17,7 +17,7 @@ const NavBar = () => {
         <div className='nav__main__div'>
             <Link to='/' className='nav__logo' onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}><img src={logo} alt='Flint' /></Link>
             <div className='nav__burger__div' onClick={burgerOpen}>
-                <div className={openMenu ? 'nav__burger active' : 'nav__burger'} >
+                <div className={openMenu ? 'nav__burger active' : 'nav__burger'}>
                     <span></span>
                 </div>
             </div>
@@ -25,13 +25,13 @@ const NavBar = () => {
                 <Link to='/about' className='nav__item__link' onClick={burgerOpen}><h1>о компании</h1></Link>
                 <Link to='/productions' className='nav__item__link' onClick={burgerOpen}><h1>продукты</h1></Link>
                 <Link to='/contacts' className='nav__item__link' onClick={burgerOpen}><h1>контакты</h1></Link>
-                <div className='nav__item__link' style={{cursor: 'default'}}><h1 style={{borderBottom: 'none'}}>cлужба продаж<br/>+7 918 456 21 94</h1></div>
+                <div className='nav__item__link' style={{cursor: 'default'}}><h1 style={{borderBottom: 'none'}}><a href='tel:+79184562194'>cлужба продаж<br/>+7 918 456 21 94</a></h1></div>
             </div>
             <div className='nav__item'>
                 <Link to='/about' className='nav__item__link'><h1>о компании</h1></Link>
                 <Link to='/productions' className='nav__item__link'><h1>продукты</h1></Link>
                 <Link to='/contacts' className='nav__item__link'><h1>контакты</h1></Link>
-                <div className='nav__item__link' style={{cursor: 'default'}}><h1 style={{borderBottom: 'none'}}>cлужба продаж<br/>+7 918 456 21 94</h1></div>
+                <div className='nav__item__link' style={{cursor: 'default'}}><h1 style={{borderBottom: 'none'}}><a href='tel:+79184562194'>cлужба продаж<br/>+7 918 456 21 94</a></h1></div>
             </div>
             
         </div>

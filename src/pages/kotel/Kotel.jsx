@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { ToastContainer, toast } from 'react-toastify';
 import { NameAndDesc, otherKotels } from './choose'
 import pictureKotel from './pngKotel.png'
 import kotel from '../main/Kotel.svg'
@@ -16,10 +15,6 @@ const Kotel = () => {
     const [descr, setDescr] = useState()
     const [others, setOthers] = useState([])
 
-    const error = () => {
-        toast.error('Что-то пошло не так, попробуйте снова', {position: 'bottom-left', style: {fontSize: '20px'},
-        theme: 'dark', autoClose: 3000})
-    }
 
     useEffect(() => {
         window.scrollTo({top: 0, behavior: 'smooth'}) // плавный переход
@@ -70,7 +65,6 @@ const Kotel = () => {
                     </Link>
                 </div>
             </div>
-            <ToastContainer/>
         </div>
     )
 }

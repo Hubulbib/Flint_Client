@@ -36,6 +36,10 @@
 .nav__item__link:hover h1{
     border-bottom: 3px solid #F9E7A3;
 }
+.nav__item__link h1 a{
+    text-decoration: none;
+    color: #E5E5E5;
+}
 
 .nav__burger{
     display: none;
