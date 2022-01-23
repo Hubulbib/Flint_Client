@@ -21,12 +21,12 @@ const Footer = () => {
                 <div className='footer__item__link__about'><h1>© 2021 Flint<br/>Все права защищены.</h1></div>
             </div>
             <div className='footer__item__2'>
-                <div className='footer__item__number'><h1><a href='tel:+79184562194'>служба продаж<br/>+7 918 456 21 94</a></h1></div>
+                <div className='footer__item__number'><h1><a href='tel:88634364683'>служба продаж<br/>8 (8634) 36-46-83</a></h1></div>
                 <div className='footer__item__number'>
                     <h1>электронная почта</h1>
                     <div className='footer__item__email'>
                         <img src={mail} alt='email'/>
-                        <h1><a href='mailto:flint@mail.ru?subject=Обращение'>flint@mail.ru</a></h1>
+                        <h1><a href='mailto:flint.rov@gmail.com?subject=Обращение'>flint.rov@gmail.com</a></h1>
                     </div>
                 </div>
             </div>

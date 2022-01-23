@@ -25,13 +25,13 @@ const NavBar = () => {
                 <Link to='/about' className='nav__item__link' onClick={burgerOpen}><h1>о компании</h1></Link>
                 <Link to='/productions' className='nav__item__link' onClick={burgerOpen}><h1>продукты</h1></Link>
                 <Link to='/contacts' className='nav__item__link' onClick={burgerOpen}><h1>контакты</h1></Link>
-                <div className='nav__item__link' style={{cursor: 'default'}}><h1 style={{borderBottom: 'none'}}><a href='tel:+79184562194'>cлужба продаж<br/>+7 918 456 21 94</a></h1></div>
+                <div className='nav__item__link' style={{cursor: 'default'}}><h1 style={{borderBottom: 'none'}}><a href='tel:88634364683'>служба продаж<br/>8 (8634) 36-46-83</a></h1></div>
             </div>
             <div className='nav__item'>
                 <Link to='/about' className='nav__item__link'><h1>о компании</h1></Link>
                 <Link to='/productions' className='nav__item__link'><h1>продукты</h1></Link>
                 <Link to='/contacts' className='nav__item__link'><h1>контакты</h1></Link>
-                <div className='nav__item__link' style={{cursor: 'default'}}><h1 style={{borderBottom: 'none'}}><a href='tel:+79184562194'>cлужба продаж<br/>+7 918 456 21 94</a></h1></div>
+                <div className='nav__item__link' style={{cursor: 'default'}}><h1 style={{borderBottom: 'none'}}><a href='tel:88634364683'>служба продаж<br/>8 (8634) 36-46-83</a></h1></div>
             </div>
             
         </div>
