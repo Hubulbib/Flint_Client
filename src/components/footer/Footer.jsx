@@ -26,7 +26,7 @@ const Footer = () => {
                     <h1>электронная почта</h1>
                     <div className='footer__item__email'>
                         <img src={mail} alt='email'/>
-                        <h1><a href='mailto:flint.rov@gmail.com?subject=Обращение' target="_blank">flint.rov@gmail.com</a></h1>
+                        <h1><a href='mailto:flint.rov@gmail.com?subject=Обращение' target="_blank" rel="noreferrer">flint.rov@gmail.com</a></h1>
                     </div>
                 </div>
             </div>
