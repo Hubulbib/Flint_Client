@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './footer.css'
 import logo from '../nav/Logo.svg'
 import mail from './mail.svg'
-import reactor from './reactor.svg'
+import reactor from './logo.png'
 
 const Footer = () => {
 
@@ -26,14 +26,14 @@ const Footer = () => {
                     <h1>электронная почта</h1>
                     <div className='footer__item__email'>
                         <img src={mail} alt='email'/>
-                        <h1><a href='mailto:flint.rov@gmail.com?subject=Обращение' target="_blank" rel="noreferrer">flint.rov@gmail.com</a></h1>
+                        <h1><a href='mailto:flint.rov@gmail.com?subject=Обращение' target='_blank' rel='noreferrer'>flint.rov@gmail.com</a></h1>
                     </div>
                 </div>
             </div>
             <div className='footer__item'>
                 <div className='footer__item__number'>
                     <h1>created by</h1>
-                    <img src={reactor} alt='ReactorIT' className='reactor'/>
+                    <a href='https://www.instagram.com/concept.web.studio/' target='_blank' rel='noreferrer'><img src={reactor} alt='ReactorIT' className='reactor'/></a>
                 </div>
                 
             </div>
