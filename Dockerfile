@@ -6,8 +6,12 @@ COPY ./package.json ./
 
 RUN npm install
 
+RUN npm run build
+
 COPY . .
 
-EXPOSE 3000
+ENV PORT 80
 
-CMD ["npm", "start"]
+EXPOSE $PORT
+
+CMD ["npm", "server"]
