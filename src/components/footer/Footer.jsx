@@ -17,7 +17,6 @@ const Footer = () => {
                 <div className='footer__logo__div'><img src={logo} alt='Flint' className='footer__logo'/></div>
                 <Link to='/about' className='footer__item__link' onClick={Scroll}><h1>о компании</h1></Link>
                 <Link to='/productions' className='footer__item__link' onClick={Scroll}><h1>продукты</h1></Link>
-                <Link to='/contacts' className='footer__item__link' onClick={Scroll}><h1>контакты</h1></Link>
                 <div className='footer__item__link__about'><h1>© 2021 Flint<br/>Все права защищены.</h1></div>
             </div>
             <div className='footer__item__2'>
