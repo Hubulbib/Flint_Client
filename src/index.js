@@ -37,7 +37,7 @@ function OnThanksButton() {
 
 const onModal = window.innerWidth > 1024 ? <Modal /> : null
 
-if (!open) {
+if (!open && window.innerWidth > 1024) {
   document.body.style.overflow = 'hidden'
 }
 
