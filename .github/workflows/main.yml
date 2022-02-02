@@ -48,4 +48,4 @@ jobs:
             # Remove old container
             docker rm $(echo $CONTAINER_NAME)
             # Run a new container from a new image
-            docker-compose up
+            docker run -d -p 80:80 --name ${{ CONTAINER_NAME }} ${{ CONTAINER_NAME }} 
