@@ -45,4 +45,11 @@ jobs:
             docker login -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }}
             # Stop running container
             docker stop $(echo $CONTAINER_NAME)
-            
+            # Remove old container
+            docker rm $(echo $CONTAINER_NAME)
+            # Remove old image
+            docker rmi hubulbib/flint
+            # Pull latest image
+            docker pull hubulbib/flint
+            # Run a new container from a new image
+            docker run -d -p 80:80 --name flint hubulbib/flint 
