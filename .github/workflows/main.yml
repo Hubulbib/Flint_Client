@@ -52,4 +52,4 @@ jobs:
             # Pull latest image
             docker pull hubulbib/flint:$(echo $GITHUB_SHA | head -c7)
             # Run a new container from a new image
-            docker run -d -p 80:80 --name flint hubulbib/flint 
+            docker run -d -p 80:80 --name flint hubulbib/flint:$(echo $GITHUB_SHA | head -c7)
