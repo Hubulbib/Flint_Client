@@ -129,7 +129,9 @@
     .other__kotel__div h1 {
         font-size: 32px;
     }
-    
+    .page__kotel__a a {
+        font-size: 24px;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -156,6 +158,9 @@
     }
     .other__kotel__div h1 {
         font-size: 32px;
+    }
+    .page__kotel__a a {
+        font-size: 22px;
     }
 }
 
@@ -189,6 +194,9 @@
     }
     .other__kotels{
         margin-bottom: 150px;
+    }
+    .page__kotel__a a {
+        font-size: 18px;
     }
 }
 
@@ -245,5 +253,8 @@
     }
     .other__kotels{
         margin-bottom: 110px;
+    }
+    .page__kotel__a a {
+        font-size: 16px;
     }
 }

@@ -7,6 +7,14 @@ const NavBar = () => {
 
     const [openMenu, setOpen] = useState(false)
 
+    function onLogoClick() {
+        if (window.innerWidth <= 1024){
+            setOpen(false)
+            document.body.classList.remove('lock')
+            window.scrollTo({top: 0, behavior: 'smooth'})
+        }
+    }
+
     function burgerOpen(){
         setOpen(!openMenu)
         document.body.classList.toggle('lock')
@@ -15,7 +23,7 @@ const NavBar = () => {
 
     return(
         <div className='nav__main__div'>
-            <Link to='/' className='nav__logo' onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}><img src={logo} alt='Flint' /></Link>
+            <Link to='/' className='nav__logo' onClick={onLogoClick}><img src={logo} alt='Flint' /></Link>
             <div className='nav__burger__div' onClick={burgerOpen}>
                 <div className={openMenu ? 'nav__burger active' : 'nav__burger'}>
                     <span></span>
