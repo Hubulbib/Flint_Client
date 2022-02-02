@@ -47,5 +47,7 @@ jobs:
             docker stop $(echo $CONTAINER_NAME)
             # Remove old container
             docker rm $(echo $CONTAINER_NAME)
+            # Pull latest image
+            docker pull hubulbib/flint:latest
             # Run a new container from a new image
-            docker run -d -p 80:80 --name $(echo $CONTAINER_NAME) $(echo $CONTAINER_NAME) 
+            docker run -d -p 80:80 --name $(echo $CONTAINER_NAME) $(echo $CONTAINER_NAME):latest 
