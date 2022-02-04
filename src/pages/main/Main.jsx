@@ -2,11 +2,16 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './main.css'
 import kotel from './Kotel.svg'
+import { Helmet } from 'react-helmet'
 
 const Main = () => {
 
     return(
         <>
+            <Helmet>
+                <title>Flint</title>
+                <meta name='description' content='Flint - лучшие в производстве газовых котлов' />
+            </Helmet>
             <div className='main__div'>
                 <div className='main__div__up'>
                     <div className='main__div__left'>

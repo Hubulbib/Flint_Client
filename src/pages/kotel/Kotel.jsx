@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Helmet } from 'react-helmet'
 import { Link, useParams } from 'react-router-dom'
 import { NameAndDesc, otherKotels } from './choose'
 import pictureKotel from './pngKotel.png'
@@ -29,9 +30,13 @@ const Kotel = () => {
     function linkCreate(link){
         return `/productions/${link}`
     }
-
+    
     return(
         <div className='page__kotel__div'>
+            <Helmet>
+                <title>{Kname}</title>
+                <meta name='description' content='Котлы Flint предназначены для отопления жилых домов и зданий коммунально-бытового назначения'/>
+            </Helmet>
             <div className='page__main'><h1>{Kname}</h1></div>
             <div className='page__desc'>
                 <div className='photo__div'>
