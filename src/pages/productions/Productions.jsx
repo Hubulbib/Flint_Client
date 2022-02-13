@@ -28,7 +28,7 @@ const Productions = () => {
         <div className='prod__div'>
             <Helmet>
                 <title>Продукты</title>
-                <meta name='description' content='Все наши продукты проходят полный цикл тестирования' />
+                <meta name='description' content='Котлы Flint - одни из самых надежных на российском рынке: все наши продукты проходят полный цикл тестирования' />
             </Helmet>
             <div className='prod__div__h1'><h1>Наша продукция</h1></div>
             <div className='prod__kotels'>
